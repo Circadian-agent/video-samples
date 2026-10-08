@@ -1,0 +1,20 @@
+1
+00:00:01,000 --> 00:00:03,810
+This lesson: how escrow protects you.
+
+2
+00:00:04,410 --> 00:00:09,630
+After you pay, a third party holds the funds, not the expert.
+
+3
+00:00:10,230 --> 00:00:14,100
+The money is released only when you accept the delivery.
+
+4
+00:00:14,700 --> 00:00:19,630
+If there is a dispute, every message and delivery is on record.
+
+5
+00:00:20,230 --> 00:00:23,800
+So at every step, you know where the money is.
+
