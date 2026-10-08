@@ -1,0 +1,19 @@
+1
+00:00:00,400 --> 00:00:06,500
+You paid, nothing arrived, and nobody answers.
+
+2
+00:00:07,400 --> 00:00:13,500
+Escrow: the money is held by a third party first.
+
+3
+00:00:14,400 --> 00:00:20,500
+You accept the delivery, then the money is released.
+
+4
+00:00:21,400 --> 00:00:27,500
+If there is a dispute, every step is on record.
+
+5
+00:00:28,400 --> 00:00:35,500
+Where the money is, clear at every step. Hire AI experts with confidence.

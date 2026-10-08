@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&family=Noto+Serif+TC:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#ece3d4;--paper2:#e2d6c3;--ink:#3a2e27;--soft:#7a6a5c;--clay:#a8694f;--gold:#a48756}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:540px;height:960px;overflow:hidden;background:var(--paper)}
+#s{position:relative;width:540px;height:960px;background:radial-gradient(120% 80% at 30% 20%,#f1e9dc 0%,var(--paper) 45%,var(--paper2) 100%);color:var(--ink);font-family:"Noto Serif TC",serif}
+.grain{position:absolute;inset:0;opacity:.28;mix-blend-mode:multiply;pointer-events:none}
+.scene{position:absolute;inset:0;opacity:0}
+.t{font-family:"LXGW WenKai TC",serif;font-weight:700;letter-spacing:.04em}
+.big{font-size:86px;line-height:1.15}
+.mid{font-size:50px;line-height:1.3}
+.sub{font-size:25px;line-height:1.7;color:var(--soft)}
+.tag{position:absolute;top:44px;left:40px;font-size:15px;letter-spacing:.3em;color:var(--soft)}
+.foot{position:absolute;bottom:40px;left:40px;right:40px;display:flex;justify-content:space-between;font-size:13px;letter-spacing:.12em;color:var(--soft)}
+.cap{position:absolute;left:40px;right:40px;bottom:120px;font-size:26px;line-height:1.6;color:var(--ink);text-align:center}
+.node{position:absolute;width:118px;height:118px;border-radius:50%;border:2px solid var(--ink);display:flex;align-items:center;justify-content:center;font-family:"LXGW WenKai TC";font-size:28px;background:rgba(255,250,240,.35)}
+.coin{position:absolute;width:30px;height:30px;border-radius:50%;background:var(--clay);box-shadow:0 0 0 6px rgba(168,105,79,.18)}
+.rec{font-size:25px;line-height:2.1;border-left:2px solid var(--gold);padding-left:22px}
+.rec div{opacity:0}
+</style></head><body>
+<div id="s">
+  <svg width="0" height="0"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="4"/><feColorMatrix values="0 0 0 0 .3  0 0 0 0 .25  0 0 0 0 .2  0 0 0 .55 0"/></filter></svg>
+
+  <div class="scene" id="a">
+    <svg style="position:absolute;left:30px;top:150px" width="480" height="480" viewBox="0 0 400 400"><path id="ring" d="M200 40 C 300 42 362 120 360 205 C 357 300 285 362 196 360 C 105 357 40 290 42 198 C 45 115 110 52 188 44" fill="none" stroke="#3a2e27" stroke-width="14" stroke-linecap="round" opacity=".85"/></svg>
+    <div class="t" style="position:absolute;top:300px;width:100%;text-align:center;font-size:76px">請人做嘢</div>
+    <div class="t mid" style="position:absolute;top:410px;width:100%;text-align:center;color:var(--clay)">最驚係咩？</div>
+  </div>
+
+  <div class="scene" id="b">
+    <div class="t big" style="position:absolute;top:150px;left:40px">託管</div>
+    <div class="sub" style="position:absolute;top:268px;left:44px">錢唔係直接去專家手</div>
+    <div class="node" style="left:30px;top:470px">客戶</div>
+    <div class="node" style="left:211px;top:470px;border-color:var(--clay);color:var(--clay)">第三方</div>
+    <div class="node" style="left:392px;top:470px">專家</div>
+    <svg style="position:absolute;left:0;top:520px" width="540" height="20"><line x1="150" y1="9" x2="210" y2="9" stroke="#7a6a5c" stroke-dasharray="4 6"/><line x1="331" y1="9" x2="391" y2="9" stroke="#7a6a5c" stroke-dasharray="4 6"/></svg>
+    <div class="coin" id="coinB"></div>
+  </div>
+
+  <div class="scene" id="c">
+    <div class="t big" style="position:absolute;top:150px;left:40px">你驗收</div>
+    <div class="t big" style="position:absolute;top:252px;left:40px;color:var(--clay)">先放款</div>
+    <div class="node" style="left:30px;top:520px">客戶</div>
+    <div class="node" style="left:211px;top:520px;border-color:var(--clay);color:var(--clay)">第三方</div>
+    <div class="node" style="left:392px;top:520px">專家</div>
+    <svg style="position:absolute;left:240px;top:430px" width="60" height="60"><path id="tick" d="M8 32 L24 48 L54 12" fill="none" stroke="#a8694f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <div class="coin" id="coinC"></div>
+  </div>
+
+  <div class="scene" id="d">
+    <div class="t big" style="position:absolute;top:150px;left:40px">有爭議？</div>
+    <div class="sub" style="position:absolute;top:268px;left:44px">每一步都有紀錄</div>
+    <div class="rec" style="position:absolute;top:380px;left:60px">
+      <div>① 報價同工作範圍</div><div>② 託管入賬時間</div><div>③ 每次交付嘅版本</div><div>④ 驗收同簽署證書</div>
+    </div>
+  </div>
+
+  <div class="scene" id="e">
+    <div class="t mid" style="position:absolute;top:260px;width:100%;text-align:center">錢喺邊</div>
+    <div class="t" style="position:absolute;top:340px;width:100%;text-align:center;color:var(--clay);font-size:68px">每一步都清楚</div>
+    <div style="position:absolute;top:520px;width:100%;text-align:center;font-size:24px;letter-spacing:.12em">安心請 AI 專家</div>
+    <div style="position:absolute;top:566px;width:100%;text-align:center;font-size:20px;color:var(--soft);letter-spacing:.08em">ai-freelance-hub.com</div>
+  </div>
+
+  <div class="cap" id="cap"></div>
+  <div class="tag">學堂 · 託管</div>
+  <div class="foot"><span>AI FREELANCE HUB</span><span>樣本 · AI agent 製作</span></div>
+  <img class="grain" src="grain.png" width="540" height="960">
+</div>
+<script>
+const S=[["a",0,7,"錢俾咗，嘢未見，人搵唔到。"],["b",7,14,"託管：筆錢先交由第三方保管。"],["c",14,21,"交付滿意，你確認，款項先會發放。"],["d",21,28,"真係有爭議，所有紀錄都喺度。"],["e",28,36,""]];
+const ease=x=>x<0?0:x>1?1:x*x*(3-2*x);
+const ring=document.getElementById("ring"),RL=ring.getTotalLength();ring.style.strokeDasharray=RL;
+const tick=document.getElementById("tick"),TL=tick.getTotalLength();tick.style.strokeDasharray=TL;
+window.render=t=>{
+  for(const[id,a,b]of S){const el=document.getElementById(id);const o=Math.min(ease((t-a)/0.6),1-ease((t-(b-0.5))/0.5));el.style.opacity=Math.max(0,o);el.style.transform=`translateY(${(1-ease((t-a)/0.9))*18}px)`}
+  const cur=S.find(([,a,b])=>t>=a&&t<b);const cap=document.getElementById("cap");cap.textContent=cur?cur[3]:"";cap.style.opacity=cur?Math.min(ease((t-cur[1]-0.4)/0.5),1-ease((t-(cur[2]-0.5))/0.5)):0;
+  ring.style.strokeDashoffset=RL*(1-ease((t-0.2)/1.8));
+  const pb=ease((t-8.2)/2.2);const cb=document.getElementById("coinB");cb.style.left=(74+181*pb)+"px";cb.style.top="612px";
+  tick.style.strokeDashoffset=TL*(1-ease((t-15.6)/0.8));
+  const pc=ease((t-17)/2.2);const cc=document.getElementById("coinC");cc.style.left=(255+181*pc)+"px";cc.style.top="662px";
+  document.querySelectorAll(".rec div").forEach((d,i)=>{const k=ease((t-22.2-i*0.9)/0.6);d.style.opacity=k;d.style.transform=`translateX(${(1-k)*14}px)`});
+};
+render(0);
+</script></body></html>

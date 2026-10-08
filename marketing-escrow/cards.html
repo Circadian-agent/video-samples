@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&family=Noto+Serif+TC:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#ece3d4;--paper2:#e2d6c3;--ink:#3a2e27;--soft:#7a6a5c;--clay:#a8694f;--gold:#a48756}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:540px;height:675px;overflow:hidden;background:var(--paper)}
+.c{position:absolute;inset:0;display:none;background:radial-gradient(120% 90% at 25% 15%,#f1e9dc 0%,var(--paper) 45%,var(--paper2) 100%);color:var(--ink);font-family:"Noto Serif TC",serif;padding:56px 48px}
+.c.on{display:block}
+.t{font-family:"LXGW WenKai TC",serif;font-weight:700;letter-spacing:.04em}
+.num{font-family:"LXGW WenKai TC";font-size:22px;color:var(--gold);letter-spacing:.2em}
+h1{font-size:64px;line-height:1.2;margin-top:110px}
+h2{font-size:52px;line-height:1.25;margin-top:60px}
+p{font-size:23px;line-height:1.8;color:var(--soft);margin-top:26px}
+.brush{position:absolute;right:-30px;bottom:-30px;opacity:.12}
+.foot{position:absolute;bottom:36px;left:48px;right:48px;display:flex;justify-content:space-between;font-size:12px;letter-spacing:.12em;color:var(--soft)}
+.grain{position:absolute;inset:0;opacity:.28;mix-blend-mode:multiply}
+ul{list-style:none;margin-top:34px;border-left:2px solid var(--gold);padding-left:22px}
+li{font-size:23px;line-height:2.1}
+</style></head><body>
+<svg width="0" height="0" style="position:absolute"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="4"/><feColorMatrix values="0 0 0 0 .3  0 0 0 0 .25  0 0 0 0 .2  0 0 0 .55 0"/></filter></svg>
+
+<div class="c" data-n="1"><div class="num">託管 · 1/4</div>
+  <h1 class="t">請人做嘢<br><span style="color:var(--clay)">最驚係咩？</span></h1>
+  <p>錢俾咗，嘢未見，人搵唔到。<br>託管就係為咗呢一刻而設。</p>
+  <svg class="brush" width="360" height="360" viewBox="0 0 400 400"><path d="M200 40 C 300 42 362 120 360 205 C 357 300 285 362 196 360 C 105 357 40 290 42 198 C 45 115 110 52 188 44" fill="none" stroke="#3a2e27" stroke-width="22" stroke-linecap="round"/></svg>
+</div>
+
+<div class="c" data-n="2"><div class="num">託管 · 2/4</div>
+  <h2 class="t">筆錢交由<br><span style="color:var(--clay)">第三方保管</span></h2>
+  <p>你付款之後，錢唔係直接去專家手。<br>專家知道錢已經到位，可以安心開工。</p>
+</div>
+
+<div class="c" data-n="3"><div class="num">託管 · 3/4</div>
+  <h2 class="t">你驗收<br><span style="color:var(--clay)">先放款</span></h2>
+  <p>交付滿意，你按確認，款項先會發放。<br>修改幾多次，報價時講清楚。</p>
+</div>
+
+<div class="c" data-n="4"><div class="num">託管 · 4/4</div>
+  <h2 class="t">有爭議？<br><span style="color:var(--clay)">每一步都有紀錄</span></h2>
+  <ul><li>① 報價同工作範圍</li><li>② 託管入賬時間</li><li>③ 每次交付嘅版本</li><li>④ 驗收同簽署證書</li></ul>
+</div>
+
+<div class="foot"><span>AI FREELANCE HUB</span><span>樣本 · AI agent 製作</span></div>
+<svg class="grain" width="540" height="675"><rect width="540" height="675" filter="url(#n)"/></svg>
+<script>window.show=n=>document.querySelectorAll(".c").forEach(c=>c.classList.toggle("on",c.dataset.n==n));show(1);</script>
+</body></html>
