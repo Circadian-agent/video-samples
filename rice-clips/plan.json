@@ -1,0 +1,13 @@
+{
+  "selection": "Content analysis. This source is a file with no platform retention or most-replayed data, so no retention signal was used. Moments were chosen as passages that stand on their own: one complete argument or analogy, a first line that works without earlier context, and a clear ending. Applause after a line was counted as audience reaction.",
+  "formats": ["vertical", "square"],
+  "captions": true,
+  "clips": [
+    {"id": "clip1-why-the-moon", "from": "But why some say the moon", "to": "and one we intend to win, and the others too",
+     "why": "The best-known passage of the speech and a complete argument: a run of rhetorical questions (why climb the highest mountain, why does Rice play Texas) answered by the repeated line \"We choose to go to the moon\" and the reason \"not because they are easy, but because they are hard\". The crowd applauds after the repeated line, about 547 to 553 s."},
+    {"id": "clip2-50000-years", "from": "But condense, if you will, the", "to": "reached the stars before midnight tonight",
+     "why": "A self-contained analogy with its own setup and payoff. Human history is squeezed into 50 years: skins and caves, then writing, the printing press \"this year\", penicillin \"last week\", ending with reaching the stars \"before midnight tonight\". It needs no earlier context."},
+    {"id": "clip3-houston", "from": "But this city of Houston", "to": "And so will space",
+     "why": "A short, quotable answer to doubters: Houston, Texas and the country \"was not built by those who waited and rested\". The crowd applauds about 255 to 264 s, then he closes with \"This country was conquered by those who move forward. And so will space.\""}
+  ]
+}

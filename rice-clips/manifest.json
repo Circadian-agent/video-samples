@@ -1,0 +1,73 @@
+{
+  "source": "rice.ogv",
+  "selection": "Content analysis. This source is a file with no platform retention or most-replayed data, so no retention signal was used. Moments were chosen as passages that stand on their own: one complete argument or analogy, a first line that works without earlier context, and a clear ending. Applause after a line was counted as audience reaction.",
+  "clips": [
+    {
+      "id": "clip1-why-the-moon",
+      "start": 526.08,
+      "end": 579.2,
+      "duration": 53.12,
+      "first_words": "But why some say the moon? Why choose",
+      "last_words": "we intend to win, and the others too.",
+      "transcript": "But why some say the moon? Why choose this as our goal? And they may well ask, why climb the highest mountain? Why, 35 years ago, fly the Atlantic? Why does Rice play Texas? We choose to go to the moon. We choose to go to the moon. We choose to go to the moon and this decade and do the other things, not because they are easy, but because they are hard. Because that goal will serve to organize and measure the best of our energies and skills, because that challenge is one that we're willing to accept, one we are unwilling to postpone, and one we intend to win, and the others too.",
+      "why": "The best-known passage of the speech and a complete argument: a run of rhetorical questions (why climb the highest mountain, why does Rice play Texas) answered by the repeated line \"We choose to go to the moon\" and the reason \"not because they are easy, but because they are hard\". The crowd applauds after the repeated line, about 547 to 553 s.",
+      "files": {
+        "vertical": {
+          "file": "clip1-why-the-moon_vertical.mp4",
+          "size": "1080x1920",
+          "sha256": "b081ab131773b6dbd2a8cc2ea2da3b20ce5752af8d591c8a107c3b2c81fdd9ec"
+        },
+        "square": {
+          "file": "clip1-why-the-moon_square.mp4",
+          "size": "1080x1080",
+          "sha256": "8246641db295a853b34e492cb6660e749bae1ecc27a3438ac2ab96cab45e9b54"
+        }
+      }
+    },
+    {
+      "id": "clip2-50000-years",
+      "start": 124.78,
+      "end": 211.72,
+      "duration": 86.94,
+      "first_words": "But condense, if you will, the 50,000 years",
+      "last_words": "have literally reached the stars before midnight tonight.",
+      "transcript": "But condense, if you will, the 50,000 years of man's recorded history in a time span of about a half a century. Stated in these terms, we know very little about the first 40 years. Except at the end of them, advanced men had learned to use the skins of animals to cover them. Then about 10 years ago, under this standard, man emerged from his caves to construct other kinds of shelter. Only five years ago, man learned to write and use a cart with wheels. Christianity began less than two years ago. The printing press came this year. And then less than two months ago, during this whole 50-year span of human history, the steam engine provided a new source of power. Newton explored the meaning of gravity. Last month, electric lights and telephones and automobiles and airplanes became available. Only last week did we develop penicillin and television and nuclear power. And now, if America's new spacecraft succeeds in reaching Venus, we will have literally reached the stars before midnight tonight.",
+      "why": "A self-contained analogy with its own setup and payoff. Human history is squeezed into 50 years: skins and caves, then writing, the printing press \"this year\", penicillin \"last week\", ending with reaching the stars \"before midnight tonight\". It needs no earlier context.",
+      "files": {
+        "vertical": {
+          "file": "clip2-50000-years_vertical.mp4",
+          "size": "1080x1920",
+          "sha256": "631aff7d55d2b61741a382656ddc698072bf81f196fb55ec9185182073c41990"
+        },
+        "square": {
+          "file": "clip2-50000-years_square.mp4",
+          "size": "1080x1080",
+          "sha256": "19346c1740b40bf262ac2ea17552a1f878364e3e3f09439ce58035f8abd35582"
+        }
+      }
+    },
+    {
+      "id": "clip3-houston",
+      "start": 244.04,
+      "end": 270.4,
+      "duration": 26.36,
+      "first_words": "But this city of Houston, this state of",
+      "last_words": "those who move forward. And so will space.",
+      "transcript": "But this city of Houston, this state of Texas, this country of the United States was not built by those who waited and rested and wished to look behind them. This country was conquered by those who move forward. And so will space.",
+      "why": "A short, quotable answer to doubters: Houston, Texas and the country \"was not built by those who waited and rested\". The crowd applauds about 255 to 264 s, then he closes with \"This country was conquered by those who move forward. And so will space.\"",
+      "files": {
+        "vertical": {
+          "file": "clip3-houston_vertical.mp4",
+          "size": "1080x1920",
+          "sha256": "a53ce2e66d8328e49d0f3af87f396792b449b04947ad7e2bd1b2f5198e133a3d"
+        },
+        "square": {
+          "file": "clip3-houston_square.mp4",
+          "size": "1080x1080",
+          "sha256": "f51060ee0a8e82636aa6d15b150808b79cc6086699157ca0c33db6f5141d5a95"
+        }
+      }
+    }
+  ],
+  "unsupported": []
+}
