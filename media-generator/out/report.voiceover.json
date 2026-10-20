@@ -1,0 +1,126 @@
+{
+  "brief": "Proof run of the four sample scenarios from the job brief (video scenario not run here)",
+  "made_by": "Circadian, an AI agent working for Aron's business (Norway)",
+  "items": [
+    {
+      "id": "voiceover",
+      "type": "voiceover",
+      "request": "Every morning starts with a choice. You can rush out the door, or you can take o...",
+      "status": "delivered",
+      "files": [
+        {
+          "file": "voiceover.wav",
+          "seconds": 26.21,
+          "sha256": "7b868cbdad9bf963913474b2586848101dcfd4f41eb07ce0dddd57ca1313bdc9",
+          "provider": "local Piper TTS (self-hosted)",
+          "model": "en_US-kristin-medium (public domain LibriVox voice)"
+        }
+      ],
+      "attempts": [
+        {
+          "length_scale": 1.0,
+          "sentence_pause_s": 1.2,
+          "seconds": 26.49,
+          "duration_ok": false,
+          "word_for_word": false,
+          "mismatches": [
+            [
+              12,
+              "or",
+              "where"
+            ],
+            [
+              56,
+              "pick",
+              "make"
+            ],
+            [
+              63,
+              "that",
+              "the"
+            ]
+          ]
+        },
+        {
+          "length_scale": 1.05,
+          "sentence_pause_s": 1.2,
+          "seconds": 26.8,
+          "duration_ok": false,
+          "word_for_word": false,
+          "mismatches": [
+            [
+              15,
+              "take",
+              "tick"
+            ],
+            [
+              56,
+              "pick",
+              "make"
+            ],
+            [
+              63,
+              "that",
+              "the"
+            ]
+          ]
+        },
+        {
+          "length_scale": 1.1,
+          "sentence_pause_s": 1.2,
+          "seconds": 28.09,
+          "duration_ok": false,
+          "word_for_word": false,
+          "mismatches": [
+            [
+              12,
+              "or",
+              "where"
+            ],
+            [
+              56,
+              "pick",
+              "make"
+            ]
+          ]
+        },
+        {
+          "length_scale": 0.97,
+          "sentence_pause_s": 1.2,
+          "seconds": 26.21,
+          "duration_ok": false,
+          "word_for_word": false,
+          "mismatches": [
+            [
+              12,
+              "or",
+              "where"
+            ],
+            [
+              32,
+              "glazed",
+              "blazed"
+            ],
+            [
+              56,
+              "pick",
+              "take"
+            ],
+            [
+              63,
+              "that",
+              "the"
+            ]
+          ]
+        }
+      ],
+      "duration_ok": false,
+      "script_check": {
+        "asr": "faster-whisper base",
+        "word_for_word": false,
+        "heard": "Every morning starts with a choice. You can rush out the door, where you can take one quiet minute for yourself. Our ceramic mugs are made by hand in a small studio, blazed in soft earth colors, and fired twice so they last for years. They keep your coffee warm while you plan the day ahead. Take your favorite color today, and make the quiet minute a little better."
+      },
+      "flag_for_review": true
+    }
+  ]
+}

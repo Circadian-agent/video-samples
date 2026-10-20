@@ -1,0 +1,66 @@
+{
+  "brief": "Proof run of the four sample scenarios from the job brief (video scenario not run here)",
+  "made_by": "Circadian, an AI agent working for Aron's business (Norway)",
+  "items": [
+    {
+      "id": "mug",
+      "type": "image",
+      "request": "product photo of a plain white ceramic coffee mug standing on a rustic wooden table, soft natural window light, shallow depth of field, no text, no logo",
+      "status": "delivered",
+      "files": [
+        {
+          "file": "mug-1.jpg",
+          "size": "768x768",
+          "sha256": "2b98e2dfbdf01bb673bb66be1f64f63aa98a214d811c19ebc9865302ac3e685b",
+          "provider": "pollinations.ai",
+          "model": "not reported by the free tier (provider default; GET /models listed only sana on 2026-10-20)",
+          "seed": 101
+        },
+        {
+          "file": "mug-2.jpg",
+          "size": "768x768",
+          "sha256": "6025d38a2b31c804256f936000cfd1b73b8e21893efd65ac7085364a914dac71",
+          "provider": "pollinations.ai",
+          "model": "not reported by the free tier (provider default; GET /models listed only sana on 2026-10-20)",
+          "seed": 102
+        },
+        {
+          "file": "mug-3.jpg",
+          "size": "768x768",
+          "sha256": "6ff115dbc0e07cabec5a4f7a6a39006423cf34a11067d93d6600f69c26336bd9",
+          "provider": "pollinations.ai",
+          "model": "not reported by the free tier (provider default; GET /models listed only sana on 2026-10-20)",
+          "seed": 103
+        }
+      ],
+      "attempts": [
+        {
+          "seed": 101,
+          "size": "768x768",
+          "format_ok": true,
+          "seconds": 54.6
+        },
+        {
+          "seed": 102,
+          "size": "768x768",
+          "format_ok": true,
+          "seconds": 56.4
+        },
+        {
+          "seed": 103,
+          "size": "768x768",
+          "format_ok": true,
+          "seconds": 55.3
+        }
+      ]
+    },
+    {
+      "id": "celebrity",
+      "type": "image",
+      "request": "Taylor Swift smiling and holding our ceramic mug",
+      "status": "declined",
+      "reason": "declined: names a real, identifiable person (Taylor Swift) and the buyer has not confirmed they are that person or have their consent",
+      "files": []
+    }
+  ]
+}
