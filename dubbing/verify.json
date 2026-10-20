@@ -1,0 +1,89 @@
+{
+ "es": {
+  "detected": "es",
+  "prob": 1.0,
+  "lines": [
+   {
+    "line": 1,
+    "planned": 0.5,
+    "heard_first": 0.0,
+    "first_word": "Pero",
+    "heard": "Pero esta ciudad de Austin, este estado de Texas,"
+   },
+   {
+    "line": 2,
+    "planned": 4.5,
+    "heard_first": 4.8,
+    "first_word": "país,",
+    "heard": "país, los Estados Unidos no lo construyeron quienes esperaron y descansaron y"
+   },
+   {
+    "line": 3,
+    "planned": 9.7,
+    "heard_first": 9.8,
+    "first_word": "quisieron",
+    "heard": "quisieron ni dar hacia atrás."
+   },
+   {
+    "line": 4,
+    "planned": 20.8,
+    "heard_first": 20.4,
+    "first_word": "Este",
+    "heard": "Este país o conquistaron quienes avanzan"
+   },
+   {
+    "line": 5,
+    "planned": 25.5,
+    "heard_first": 25.6,
+    "first_word": "así",
+    "heard": "así será con el espacio."
+   }
+  ],
+  "applause_db_12_20": -33.2,
+  "voice_db_5_9": -15.2
+ },
+ "de": {
+  "detected": "de",
+  "prob": 1.0,
+  "lines": [
+   {
+    "line": 1,
+    "planned": 0.5,
+    "heard_first": 0.0,
+    "first_word": "Aber",
+    "heard": "Aber diese Stadt Husson, diese Stadt Texas."
+   },
+   {
+    "line": 2,
+    "planned": 4.5,
+    "heard_first": 4.1,
+    "first_word": "Dieses",
+    "heard": "Dieses Land, die vereiligten Staaten, wurde nicht von den aufgebaut, die warteten und ruten und"
+   },
+   {
+    "line": 3,
+    "planned": 9.7,
+    "heard_first": 9.3,
+    "first_word": "und",
+    "heard": "und zurückblicken wollten."
+   },
+   {
+    "line": 4,
+    "planned": 20.8,
+    "heard_first": 20.4,
+    "first_word": "Dieses",
+    "heard": "Dieses Land wurde von ihnen errobert, die vorangehen."
+   },
+   {
+    "line": 5,
+    "planned": 25.5,
+    "heard_first": 25.6,
+    "first_word": "auch",
+    "heard": "auch der Weltraum."
+   }
+  ],
+  "applause_db_12_20": -33.2,
+  "voice_db_5_9": -13.5
+ },
+ "original_applause_db_12_20": -33.1
+}
